@@ -9,17 +9,126 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 */
 *
 {
-    margin: o;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  
+
+    
+}
+header
+{
+  background-image: url(background.png);
+ 
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  background:white;
+  border-bottom: 1px solid gray;
+
+  padding: 14px 16px;
+  margin-bottom: 0px;
+  width:100%;
+  display:block; 
+  
+}
+.nav-bar
+{
+  height: 60px;
+  
+  
+  
+}
+h1 {
+    height:60px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    background-color: #4aaaa5;
+    display: block;
+    padding: 20px 18px;
+    text-decoration: none;
+    margin: 10px 255px;
+    
+   
+  
+  }
+  h1 {
+    float: left;
+  }
+.menu{
+  float: right;
+  list-style: none;
+  margin: 20px;
+}
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin: -5px 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
-header {
-    background: white;
-    background-image: url(background.png);
-    background-size: cover;
-    background-position: center;
-  }
+.menu li a {
+  display: block;
+  color: #777777;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-right: 1px solid gray;
+  
+  
+}
+
+.menu li a:hover{
+  background: gray;
+  transition: .4s;
+  color: black;
+}
+
+
+.container {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  color: #333;
+  top:120px;
+  
+}
+.container h2 {
+  font-size: 24px;
+  margin: 10px;
+  color: #4aaaa5;
+  border-bottom: 2px solid gray;
+}
+#main-bio {
+  
+   width: 960px;
+   height: 350px;
+   background-color: white;
+   padding: 20px;
+   position: fixed;
+   top:120px;
+  border: .5px solid gray;
+ }
+ 
+ p{
+  
+   display: block;
+   color: #777777;
+   text-align: center;
+   padding: 24px 26px;
+   text-decoration: none;
+ }
+ 
+
 body {
+
+  width: 100%;
+  height: 80%;
   padding: 0;
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -28,72 +137,15 @@ body {
   color: #333;
   background: #efeee7;
 }
-.nav-bar
-li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
-  float: right;
-}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-li a:hover {
-  background-color: #111;
-}
-h1 {
 
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: left;
-  background-color: #4aaaa5;
-  display: block;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-h1 {
-  float: left;
-}
-h2 {
-  font-size: 24px;
-}
 
-a {
-  color: #d21034;
-}
-
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-#main-bio,
-#contact-info,
 #bio-image {
   float: left;
 }
 
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
 
 #bio-image {
   width: 200px;
