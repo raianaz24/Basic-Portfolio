@@ -9,12 +9,11 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 */
 *
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
-
-    
+   
+ padding: 0px;
+ margin: 0px;
+box-sizing: border-box;
+   
 }
 header
 {
@@ -35,8 +34,6 @@ header
 .nav-bar
 {
   height: 60px;
-  
-  
   
 }
 h1 {
@@ -92,7 +89,7 @@ h1 {
 
 .container {
   position: relative;
-  width: 900px;
+  width: 960px;
   margin: 0 auto;
   color: #333;
   top:120px;
@@ -119,7 +116,7 @@ h1 {
   
    display: block;
    color: #777777;
-   text-align: center;
+   text-align: left;
    padding: 24px 26px;
    text-decoration: none;
  }
@@ -128,7 +125,6 @@ h1 {
 body {
 
   width: 100%;
-  height: 80%;
   padding: 0;
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -139,16 +135,29 @@ body {
 }
 
 
-
-
-
 #bio-image {
   float: left;
 }
-
 
 #bio-image {
   width: 200px;
   height: 200px;
   margin-right: 20px;
+}
+h3{
+  height:40px;
+  font-size: 8px;
+  color: #eee;
+  text-align: center;
+  background-color:gray;
+  text-decoration: none;
+  width: 100%;
+  
+  position:absolute;
+  bottom: 0px;
+
+    margin: 0px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-top: 10px solid#4aaaa5;
 }
