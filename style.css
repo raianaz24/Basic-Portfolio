@@ -38,15 +38,15 @@ header
   
 }
 h1 {
-    height:60px;
-    font-size: 28px;
+    height:100%;
+    font-size: 22px;
     color: #eee;
     text-align: center;
     background-color: #4aaaa5;
     display: block;
     padding: 20px 18px;
     text-decoration: none;
-    margin: 10px 255px;
+    margin: 0px 255px;
     
    
   
@@ -58,6 +58,8 @@ h1 {
   float: right;
   list-style: none;
   margin: 20px;
+  padding-right:170px; 
+  font-size: 14px;
 }
 .menu li {
   display: inline-block;
@@ -73,7 +75,7 @@ h1 {
   color: #777777;
   background-color: #ffffff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
   letter-spacing: 2px;
   border-right: 1px solid gray;
@@ -98,7 +100,7 @@ h1 {
 }
 .container h2 {
   font-size: 24px;
-  margin: 10px;
+  margin: 0px;
   color: #4aaaa5;
   border-bottom: 2px solid gray;
 }
@@ -171,7 +173,7 @@ h3{
   width: 960px;
   height: 450px;
   background-color: white;
-  padding: 20px;
+  padding: 30px;
   position: fixed;
   top:120px;
  border: .5px solid gray;
@@ -182,7 +184,7 @@ h3{
   height:40px;
   font-size: 12px;
   border: .5px solid gray;
-  padding: 10px;
+  padding: 15px;
 
 }
 #Contact input[type="msg"]{
@@ -190,6 +192,7 @@ h3{
   height:120px;
   font-size: 12px;
   border: .5px solid gray;
+
 }
 #Contact input[type="submit"]{
   width: 10%;
@@ -204,4 +207,5 @@ h3{
 }
 p1{
   font-size: 14px; 
+  
 }
