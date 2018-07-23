@@ -9,11 +9,12 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 */
 *
 {
-   
- padding: 0px;
- margin: 0px;
-box-sizing: border-box;
-   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+    
 }
 header
 {
@@ -89,7 +90,7 @@ h1 {
 
 .container {
   position: relative;
-  width: 960px;
+  width: 900px;
   margin: 0 auto;
   color: #333;
   top:120px;
@@ -125,6 +126,7 @@ h1 {
 body {
 
   width: 100%;
+  height: 80%;
   padding: 0;
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -135,9 +137,13 @@ body {
 }
 
 
+
+
+
 #bio-image {
   float: left;
 }
+
 
 #bio-image {
   width: 200px;
@@ -153,11 +159,49 @@ h3{
   text-decoration: none;
   width: 100%;
   
-  position:absolute;
+  position:fixed;
   bottom: 0px;
 
     margin: 0px;
     padding-top: 28px;
     padding-bottom: 28px;
     border-top: 10px solid#4aaaa5;
+}
+#Contact{
+  width: 960px;
+  height: 450px;
+  background-color: white;
+  padding: 20px;
+  position: fixed;
+  top:120px;
+ border: .5px solid gray;
+ margin: auto;
+}
+#Contact input{
+  width: 100%;
+  height:40px;
+  font-size: 12px;
+  border: .5px solid gray;
+  padding: 10px;
+
+}
+#Contact input[type="msg"]{
+  width: 100%;
+  height:120px;
+  font-size: 12px;
+  border: .5px solid gray;
+}
+#Contact input[type="submit"]{
+  width: 10%;
+  height:40px;
+  font-size: 12px;
+  border: .5px solid gray;
+  background-color: #4aaaa5;
+  color: white;
+  font-weight: bold;
+  
+
+}
+p1{
+  font-size: 14px; 
 }
