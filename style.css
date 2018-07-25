@@ -4,55 +4,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
-
-    
+   
 }
 header
 {
   background-image: url(background.png);
- 
   background-size: cover;
   background-position: center;
   color: #333;
   background:white;
   border-bottom: 1px solid gray;
-
-  padding: 14px 16px;
   margin-bottom: 0px;
   width:100%;
+  height: 100px;
   display:block; 
+  position: relative;
   
 }
 .nav-bar
 {
-  height: 70px;
+  height: 100px;
   
 }
 h1 {
-    height:100%;
+
     font-size: 22px;
+    padding: 30px 25px;
+    height:100px;
+    float: left;
     display: block;
     color: #eee;
     text-align: center;
     background-color: #4aaaa5;
     text-decoration: none;
-    margin: 0px 255px;
-    padding: 20px 18px;
+    position: relative;
+    left : 19%;
+    
    
-   
+  }
   
-  }
-  h1 {
-    float: left;
-  }
 .menu{
   position: fixed;
   right: 0px;
- 
+  padding: 25px 175px;
   list-style: none;
   margin: 20px;
-  padding-right:170px; 
   font-size: 14px;
 }
 .menu li {
@@ -134,15 +130,8 @@ body {
 }
 
 
-
-
-
 #bio-image {
   float: left;
-}
-
-
-#bio-image {
   width: 10em;
   height: 10em;
   margin-right: 20px;
@@ -150,7 +139,7 @@ body {
   
 }
  h3{
-  height:40px;
+  height:60px;
   font-size: 8px;
   color: #eee;
   text-align: center;
@@ -159,10 +148,7 @@ body {
   width: 100%;
   position:fixed;
   bottom: 0px;
-    margin: 0px;
-    padding-top: 28px;
-    padding-bottom: 28px;
-    border-top: 10px solid#4aaaa5;
+  border-top: 10px solid#4aaaa5;
 }
 #Contact{
   width: 960px;
@@ -209,7 +195,9 @@ p1{
   width: 10em;
   height: 7em;
   margin-right: 20px;
-  margin-top: 20px;}
+  margin-top: 20px;
+  float: left;
+}
   
   #gallary {
     
@@ -223,3 +211,17 @@ p1{
      top:120px;
     border: .5px solid gray;
    }
+   .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
