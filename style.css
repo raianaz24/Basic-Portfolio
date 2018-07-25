@@ -1,12 +1,4 @@
-/**
- First External CSS Stylesheet
- **/
 
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
 *
 {
     margin: 0;
@@ -34,20 +26,20 @@ header
 }
 .nav-bar
 {
-  height: 60px;
+  height: 70px;
   
 }
 h1 {
     height:100%;
     font-size: 22px;
+    display: block;
     color: #eee;
     text-align: center;
     background-color: #4aaaa5;
-    display: block;
-    padding: 20px 18px;
     text-decoration: none;
     margin: 0px 255px;
-    
+    padding: 20px 18px;
+   
    
   
   }
@@ -55,7 +47,9 @@ h1 {
     float: left;
   }
 .menu{
-  float: right;
+  position: fixed;
+  right: 0px;
+ 
   list-style: none;
   margin: 20px;
   padding-right:170px; 
@@ -110,6 +104,7 @@ h1 {
    height: 350px;
    background-color: white;
    padding: 20px;
+   margin-top: 10px;
    position: fixed;
    top:120px;
   border: .5px solid gray;
@@ -148,11 +143,13 @@ body {
 
 
 #bio-image {
-  width: 200px;
-  height: 200px;
+  width: 10em;
+  height: 10em;
   margin-right: 20px;
+  margin-top: 20px;
+  
 }
-h3{
+ h3{
   height:40px;
   font-size: 8px;
   color: #eee;
@@ -160,10 +157,8 @@ h3{
   background-color:gray;
   text-decoration: none;
   width: 100%;
-  
   position:fixed;
   bottom: 0px;
-
     margin: 0px;
     padding-top: 28px;
     padding-bottom: 28px;
@@ -209,3 +204,22 @@ p1{
   font-size: 14px; 
   
 }
+.pic {
+  
+  width: 10em;
+  height: 7em;
+  margin-right: 20px;
+  margin-top: 20px;}
+  
+  #gallary {
+    
+     width: 450px;
+     height: 560px;
+     background-color: white;
+     padding: 20px 20px;
+     margin-top: 10px;
+     position: fixed;
+     right: 500px;
+     top:120px;
+    border: .5px solid gray;
+   }
